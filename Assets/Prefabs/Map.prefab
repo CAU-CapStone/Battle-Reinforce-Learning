@@ -1173,7 +1173,7 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 50000
+  MaxStep: 5000
   ballScripts: []
 --- !u!114 &1306734610355079979
 MonoBehaviour:

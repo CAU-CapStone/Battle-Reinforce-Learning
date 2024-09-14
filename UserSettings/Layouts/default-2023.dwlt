@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349
   m_ShowMode: 4
-  m_Title: "\uAC8C\uC784"
+  m_Title: "\uC52C"
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 120
+  controlID: 106
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -302,7 +302,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Behaviors
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -312,16 +312,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 71
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Behaviors
   m_LastFoldersGridSize: 71
   m_LastProjectPath: C:\Users\gyeol\Documents\Unity Projects\Battle Reinforce Learning
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 46ac0000
-    m_LastClickedID: 44102
-    m_ExpandedIDs: 00000000c0ab000000ca9a3bffffff7f
+    m_SelectedIDs: 54050100
+    m_LastClickedID: 66900
+    m_ExpandedIDs: 00000000b2ab000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -350,7 +350,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c0ab0000
+    m_ExpandedIDs: 00000000b2ab0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -396,7 +396,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 8}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -917,9 +917,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.6838846, y: 5.6750946, z: 6.5787706}
+    m_Target: {x: -0.6875333, y: 0.92512, z: -5.4783897}
     speed: 2
-    m_Value: {x: -0.6838846, y: 5.6750946, z: 6.5787706}
+    m_Value: {x: -0.68953526, y: 0.92512, z: -5.5536675}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -965,13 +965,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.44662637, y: -0.13595456, z: 0.06887218, w: 0.88164926}
+    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: 0.44662473, y: -0.13595405, z: 0.06887193, w: 0.881646}
+    m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_Size:
-    m_Target: 26.706934
+    m_Target: 4.9476333
     speed: 2
-    m_Value: 26.706934
+    m_Value: 4.734577
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1249,9 +1249,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0698fffff497ffffe297ffffd097ffff
-      m_LastClickedID: -26672
-      m_ExpandedIDs: 1498ffff1698ffff7aa8ffff60beffff48bfffffdabfffffeec1ffffd0ccffff20cdffff86deffffd6edffff78efffff1af1ffffbcf2ffff5ef4ffff00f6ffffa2f7ffff44f9ffffe6faffffe8faffff
+      m_SelectedIDs: b227ffff
+      m_LastClickedID: -55374
+      m_ExpandedIDs: b227ffff4428ffff4628ffff2c2affff2631ffff7631ffffdc42ffff705effffb064ffffb264ffffbc6affff0c6bffff727cffffb896ffffba96ffffa29fffffa49fffff72b8ffff7ac2ffff0cc3ffff0ec3ffff80c9ffffd0c9ffff36dbfffff0eaffff92ecffff34eeffffd6efffff78f1ffff1af3ffffbcf4ffff5ef6ffff00f8ffff02f8ffffe8faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

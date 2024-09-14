@@ -36,9 +36,11 @@ public class AgentControl : Agent
     
     public override void OnActionReceived(ActionBuffers actions)
     {
-        AddReward(-1f);
-        
         float magnitude = 30.0f * Mathf.Clamp(actions.ContinuousActions[0], 0f, 1f);
+        
+        if (magnitude > 25.0f)
+            AddReward(1f);
+            
         float angle = 180.0f * Mathf.Clamp(actions.ContinuousActions[1], -1f, 1f);
         
         rb.AddForce(new Vector3(Mathf.Cos(angle), 0, Mathf.Sin(angle)) * magnitude);
