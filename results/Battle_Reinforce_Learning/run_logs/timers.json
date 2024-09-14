@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1726299335",
+        "python_version": "3.10.12 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 19:01:18) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\gyeol\\miniconda3\\envs\\mlagents\\Scripts\\mlagents-learn --env=C:\\Users\\gyeol\\Documents\\Unity Projects\\Battle Reinforce Learning\\out\\Battle Reinforce Learning.exe --width=640 --height=480 --num-envs=4 --run-id=Battle_Reinforce_Learning --resume",
+        "mlagents_version": "1.1.0.dev0",
+        "mlagents_envs_version": "1.1.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.2+cu121",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1726299342"
+    },
+    "total": 6.998104999998759,
+    "count": 1,
+    "self": 0.36713849999978265,
+    "children": {
+        "run_training.setup": {
+            "total": 0.20503629999984696,
+            "count": 1,
+            "self": 0.20503629999984696
+        },
+        "TrainerController.start_learning": {
+            "total": 6.425930199999129,
+            "count": 1,
+            "self": 8.519999755662866e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 6.308985100000427,
+                    "count": 1,
+                    "self": 6.308985100000427
+                },
+                "trainer_threads": {
+                    "total": 8.000006346264854e-07,
+                    "count": 1,
+                    "self": 8.000006346264854e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 0.11685910000051081,
+                    "count": 1,
+                    "self": 0.009204300000419607,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.1076548000000912,
+                            "count": 1,
+                            "self": 0.1076548000000912
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -50,6 +50,7 @@
     <Compile Include="Assets\Kevin Iglesias\3D Character Dummy\_ExampleScene\Scripts\DummyRPMaterialLoader.cs" />
     <Compile Include="Assets\Scripts\BallControl.cs" />
     <None Include="Assets\ML-Agents\Timers\MainScene_timers.json" />
+    <None Include="Assets\ML-Agents\Timers\TestScene_timers.json" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2023.2.12f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

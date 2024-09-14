@@ -1,0 +1,47 @@
+{
+    "My Behavior": {
+        "checkpoints": [
+            {
+                "steps": 499968,
+                "file_path": "results\\Battle_Reinforce_Learning\\My Behavior\\My Behavior-499968.onnx",
+                "reward": null,
+                "creation_time": 1726299165.3670805,
+                "auxillary_file_paths": [
+                    "results\\Battle_Reinforce_Learning\\My Behavior\\My Behavior-499968.pt"
+                ]
+            },
+            {
+                "steps": 500544,
+                "file_path": "results\\Battle_Reinforce_Learning\\My Behavior\\My Behavior-500544.onnx",
+                "reward": null,
+                "creation_time": 1726299165.4187005,
+                "auxillary_file_paths": [
+                    "results\\Battle_Reinforce_Learning\\My Behavior\\My Behavior-500544.pt"
+                ]
+            },
+            {
+                "steps": 500544,
+                "file_path": "results\\Battle_Reinforce_Learning\\My Behavior\\My Behavior-500544.onnx",
+                "reward": null,
+                "creation_time": 1726299341.866732,
+                "auxillary_file_paths": [
+                    "results\\Battle_Reinforce_Learning\\My Behavior\\My Behavior-500544.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500544,
+            "file_path": "results\\Battle_Reinforce_Learning\\My Behavior.onnx",
+            "reward": null,
+            "creation_time": 1726299341.866732,
+            "auxillary_file_paths": [
+                "results\\Battle_Reinforce_Learning\\My Behavior\\My Behavior-500544.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
